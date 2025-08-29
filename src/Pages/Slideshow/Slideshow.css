@@ -1,0 +1,34 @@
+.slider-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .slider-container,
+  .slider-image {
+    height: 70vh; 
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .slider-container,
+  .slider-image {
+    height: 50vh; 
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .slider-container,
+  .slider-image {
+    height: 40vh; 
+  }
+}

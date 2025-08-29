@@ -1,0 +1,65 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  background-color: white;
+  color: black;
+  padding-top: 60px;
+  z-index: 1000;
+}
+.hamburger {
+  font-size: 2rem;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1001;
+  color: black;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 80%;
+  }
+
+  .hamburger {
+    font-size: 1.8rem;
+    top: 15px;
+    right: 15px;
+  }
+
+  .close-btn {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .sidebar {
+    width: 300px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 350px;
+  }
+}

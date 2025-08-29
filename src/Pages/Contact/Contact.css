@@ -1,0 +1,106 @@
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    color: white;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.right h4 {
+    color: aquamarine;
+}
+
+.form {
+    display: flex;
+    gap: 30px;
+}
+
+.contact-form label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+/* Tablet */
+@media (max-width: 1024px) {
+    .logo {
+        font-size: 40px;
+    }
+
+    .form {
+        gap: 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .form {
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 30px;
+        top: 5%;
+    }
+
+    .text {
+        padding: 20px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .text {
+        padding: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
