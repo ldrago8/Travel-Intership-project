@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import home from '../../Assets/home.png'
 import home1 from '../../Assets/home1.jpg'
 import food from '../../Assets/food.png'
 import resort from '../../Assets/resort.png'
@@ -14,7 +15,7 @@ const Home = () => {
   return (
     <div>
     <div className='main'>
-      <img src={home1} alt="travel" className="image"/>
+      <img src={home} alt="travel" className="image"/>
       <div className='logo'>Hepta</div>
       <div className='text'>
         <h1>Travel & Tour</h1>

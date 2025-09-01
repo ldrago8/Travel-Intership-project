@@ -1,6 +1,6 @@
 import React from 'react'
 import './Slideshow.css';
-import home1 from '../../Assets/home1.jpg'
+import home from '../../Assets/home.png'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,13 +19,13 @@ const Slideshow = () => {
        <div className="slider-container">
       <Slider {...settings}>
         <div className="slide">
-          <img src={home1} alt="Slide 1" className="slider-image" />
+          <img src={home} alt="Slide 1" className="slider-image" />
         </div>
         <div className="slide">
-          <img src={home1} alt="Slide 2" className="slider-image" />
+          <img src={home} alt="Slide 2" className="slider-image" />
         </div>
         <div className="slide">
-          <img src={home1} alt="Slide 3" className="slider-image" />
+          <img src={home} alt="Slide 3" className="slider-image" />
         </div>
         
       </Slider>

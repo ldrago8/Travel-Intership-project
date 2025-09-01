@@ -125,13 +125,13 @@ color:cornflowerblue
 }
 .slider-container{
  width: 100%;
-  height: 100vh;
+  height: 60vh;
  
 }
 
 .slider-image {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
 }
 @media (max-width: 1024px) {
@@ -211,7 +211,7 @@ color:cornflowerblue
     width: 90%;
   }
 
-  .slider-container, .slider-image {
+  .slider-container {
     height: 50vh;
   }
 }
@@ -239,7 +239,7 @@ color:cornflowerblue
     font-size: 0.9rem;
   }
 
-  .slider-container, .slider-image {
+  .slider-container {
     height: 40vh;
   }
 } 
@@ -260,8 +260,7 @@ color:cornflowerblue
         width: 350px;
     }
 
-    .slider-container,
-    .slider-image {
-        height: 90vh;
+    .slider-container {
+        height: 70vh;
     }
 }
